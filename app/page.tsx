@@ -9,6 +9,12 @@ const skills = [
   'HTML & CSS',
   'Git',
   'Responsive Design',
+  'Apigee',
+  'REST APIs',
+  'OAuth2',
+  'JWT',
+  'Python',
+  'CI/CD',
 ]
 
 function SectionHeading({ eyebrow, title }: { eyebrow: string; title: string }) {
@@ -55,7 +61,7 @@ export default function Page() {
             </div>
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.28em] text-cyan-300">Hello, I&apos;m</p>
             <h1 className="max-w-3xl text-5xl font-bold leading-[0.98] tracking-[-0.04em] text-white sm:text-7xl">Ermias<br /><span className="text-cyan-300">Seyoum.</span></h1>
-            <p className="mt-8 max-w-xl text-lg leading-8 text-slate-300">A developer focused on creating clear, useful, and engaging experiences for the web.</p>
+            <p className="mt-8 max-w-xl text-lg leading-8 text-slate-300">A developer focused on API development, reliable integrations, and security-minded solutions that help systems communicate clearly and safely.</p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a href="#projects" className="inline-flex items-center gap-2 rounded-full bg-cyan-300 px-5 py-3 text-sm font-bold text-[#071b3a] transition-transform hover:-translate-y-0.5">View my work <ArrowUpRight className="size-4" aria-hidden="true" /></a>
               <a href="#about" className="inline-flex items-center rounded-full border border-white/25 px-5 py-3 text-sm font-semibold text-white transition-colors hover:border-cyan-300 hover:text-cyan-200">More about me</a>
@@ -86,7 +92,7 @@ export default function Page() {
 
       <section id="projects" className="mx-auto max-w-6xl scroll-mt-8 px-6 py-24 lg:px-8 lg:py-32">
         <SectionHeading eyebrow="03 / Selected work" title="Featured project." />
-        <article className="group overflow-hidden rounded-3xl bg-[#071b3a] shadow-xl shadow-slate-900/10"><div className="grid lg:grid-cols-[1.15fr_0.85fr]"><div className="relative min-h-[300px] overflow-hidden bg-[#0b2852] p-8 sm:p-12"><div className="absolute -right-20 -top-24 size-72 rounded-full border-[36px] border-cyan-300/10" aria-hidden="true" /><div className="relative flex h-full flex-col justify-between"><p className="font-mono text-sm text-cyan-300">01 — Featured build</p><div><p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-slate-300">Multiplayer · Web game</p><h3 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">Football<br /><span className="text-cyan-300">Face-Off</span></h3></div></div></div><div className="flex flex-col justify-between p-8 sm:p-12"><div><p className="mb-5 text-lg leading-8 text-slate-300">A multiplayer soccer trivia game built for friendly competition, quick thinking, and football fans.</p><div className="flex flex-wrap gap-2"><span className="rounded-full border border-white/15 px-3 py-1 text-xs font-medium text-slate-300">Game experience</span><span className="rounded-full border border-white/15 px-3 py-1 text-xs font-medium text-slate-300">Multiplayer</span></div></div><a href="https://football-face-off.barokermi.chatgpt.site" target="_blank" rel="noreferrer" className="mt-10 inline-flex w-fit items-center gap-2 text-sm font-bold text-cyan-300 transition-colors hover:text-white">Play Football Face-Off <ArrowUpRight className="size-4" aria-hidden="true" /></a></div></div></article>
+        <article className="group overflow-hidden rounded-3xl bg-[#071b3a] shadow-xl shadow-slate-900/10"><div className="grid lg:grid-cols-[1.15fr_0.85fr]"><div className="relative min-h-[300px] overflow-hidden bg-[#0b2852] p-8 sm:p-12"><div className="absolute -right-20 -top-24 size-72 rounded-full border-[36px] border-cyan-300/10" aria-hidden="true" /><div className="relative flex h-full flex-col justify-between"><p className="font-mono text-sm text-cyan-300">01 — Featured build</p><div><p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-slate-300">Multiplayer · Web game</p><h3 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">Football<br /><span className="text-cyan-300">Face-Off</span></h3></div></div></div><div className="flex flex-col justify-between p-8 sm:p-12"><div><p className="mb-5 text-lg leading-8 text-slate-300">A fast-paced multiplayer soccer trivia game where football fans can challenge friends, test their knowledge, and compete head-to-head.</p><div className="flex flex-wrap gap-2"><span className="rounded-full border border-white/15 px-3 py-1 text-xs font-medium text-slate-300">Game experience</span><span className="rounded-full border border-white/15 px-3 py-1 text-xs font-medium text-slate-300">Multiplayer</span></div></div><a href="https://football-face-off.barokermi.chatgpt.site" target="_blank" rel="noreferrer" className="mt-10 inline-flex w-fit items-center gap-2 text-sm font-bold text-cyan-300 transition-colors hover:text-white">Play the Game <ArrowUpRight className="size-4" aria-hidden="true" /></a></div></div></article>
         <p className="mt-8 text-sm text-slate-500"><Placeholder>Add additional projects, case studies, or GitHub links here.</Placeholder></p>
       </section>
 
